@@ -1,0 +1,80 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#e8e9eb url(../images/b_body.gif) 0 0 repeat-x; color:#787878; font:10px/14px Tahoma, Geneva, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/14px Tahoma, sans-serif; color:#7c0914; text-decoration:underline;}
+p a:hover{ color:#7c0914; text-decoration:none;}
+
+.headline{font:12px/14px "Trebuchet MS", Arial, Helvetica, sans-serif; color:#7c0914; font-weight:bold}
+
+#container{width:735px; position:relative; margin:0 auto;}
+
+/* HEADER */
+
+#header{width:735px; height:281px; position:relative; background:url(../images/b_header.jpg) 0 0 no-repeat}
+#header img#logo{position:absolute; top:46px; left:17px}
+
+#header ul.menu{position:absolute; top:257px; left:24px; width:700px}
+#header ul.menu li{height:15px; margin-right:55px; float:left}
+#header ul.menu li a{height:15px; display:block; text-indent:-20000px; }
+#header ul.menu li a:hover{height:15px;}
+
+#header ul.menu li.btn_1 a{width:89px; background:url(../images/btn_1.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_1 a:hover{width:89px; background:url(../images/btn_1_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_2 a{width:89px; background:url(../images/btn_2.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_2 a:hover{width:89px; background:url(../images/btn_2_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_3 a{width:120px; background:url(../images/btn_3.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_3 a:hover{width:120px; background:url(../images/btn_3_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_4 a{width:84px; background:url(../images/btn_4.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_4 a:hover{width:84px; background:url(../images/btn_4_over.gif) 0 0 no-repeat;}
+
+#header ul.menu li.btn_5{margin-right:0}
+#header ul.menu li.btn_5 a{width:82px; background:url(../images/btn_5.gif) 0 0 no-repeat; }
+#header ul.menu li.btn_5 a:hover{width:82px; background:url(../images/btn_5_over.gif) 0 0 no-repeat;}
+
+/* CONTENT */
+
+#content{width:735px; position:relative; clear:both; background:#FFF}
+
+#leftPan{width:405px; float:left; margin:30px 28px 0 25px; display:inline}
+#rightPan{width:250px; float:left; margin:34px 0 0 0;}
+
+#welcome {margin-bottom:30px}
+#welcome h2{height:54px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:8px}
+#welcome img{float:left; margin-right:14px; margin-left:2px; display:inline}
+#welcome p{float:left; width:300px; padding-top:4px}
+#welcome p span{ margin-bottom:10px; display:block}
+
+#platform h2{height:28px; position:relative; background:url(../images/h_platform.gif) 0 0 no-repeat; margin-bottom:12px}
+.platformItem{width:178px; float:left;}
+.platformItem img{float:left; margin-right:11px;}
+.platformItem p{margin:10px 0 0 5px}
+.platformItem p.platformLink{float:left; padding-top:4px; width:96px; margin:0 0 0 0}
+
+#news {margin-bottom:20px}
+#news h2{height:28px; position:relative; background:url(../images/h_events.gif) 0 0 no-repeat; margin-bottom:12px}
+#news p{margin-bottom:10px}
+
+#tasks h2{height:28px; position:relative; background:url(../images/h_tasks.gif) 0 0 no-repeat; margin-bottom:5px}
+#tasks p{margin-bottom:15px}
+
+#tasks ul {margin-left:11px; clear:both;}
+#tasks ul li{font:10px/14px Tahoma, Geneva, sans-serif; background:url(../images/arrow.gif) 0 5px no-repeat; padding-left:18px; height:26px;}
+#tasks ul li a{color:#787878; text-decoration:none;}
+#tasks ul li a:hover{color:#787878; text-decoration:underline;}
+
+.clear#end{height:15px}
+
+/* FOOTER */
+
+
+#footer{width:735px; height:58px; clear:both;}
+#footer p{padding: 15px 0 0 0; font:11px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#3f3128;}
+#footer p a{font:11px/16px Tahoma, sans-serif; font-weight:normal; color:#3f3128; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#3f3128}
