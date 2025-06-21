@@ -1,4 +1,4 @@
-**Estatutos del partido político Partido de la Oposición Permanente, Revisión 0.1, 30/06/2019**
+**Estatutos del partido político Partido de la Oposición Permanente, Revisión 0.2, 21/06/2025**
 
 # INDICE
 
@@ -62,13 +62,13 @@ En caso de no haber otro partido en esas condiciones, el Partido de la Oposició
 
 3.2.- En el caso de que la persona candidata no sea aquella con mayor numero de votos totales en el ámbito electoral considerado los miembros del Partido de la Oposición Permanente que actúen como representantes de los ciudadanos en las votaciones para el gobierno votarán en contra
 
-3.3.- En las votaciones de mociones de censura los miembros del Partido de la Oposición Permanente que actúen como representantes de los ciudadanos en las votaciones para el gobierno votarán en contra
+3.3.- (eliminado en v0.2)
 
-3.4.- En las votaciones de moción de confianza los miembros del Partido de la Oposición Permanente que actúen como representantes de los ciudadanos en las votaciones para el gobierno se abstendrán
+3.4.- (eliminado en v0.2)
 
 **4.- Principio de estabilidad.**
 
-4.1.- En las votaciones de presupuestos los miembros del POP que actúen como representantes de los ciudadanos se abstendrán siempre que no supongan un aumento del déficit o deuda absoluta. En caso contrario se dejará libertad a cada persona electa entre la abstención y el voto en contra.
+4.1.- (eliminado en v0.2)
 
 4.2.- En las votaciones que implique modificación de la Constitución los miembros del Partido de la Oposición Permanente que actúen como representantes de los ciudadanos votarán en contra.
 
@@ -78,7 +78,7 @@ En caso de no haber otro partido en esas condiciones, el Partido de la Oposició
 
 ### Artículo 4. Domicilio
 
-El domicilio social del Partido de la Oposición Permanente radica en ***. El  domicilio  podrá  ser  modificado,  dentro del término municipal, por acuerdo de la Asamblea General. 
+El domicilio social del Partido de la Oposición Permanente radica en \*\*\*. El  domicilio  podrá  ser  modificado,  dentro del término municipal, por acuerdo de la Asamblea General. 
 
 ## Capítulo II. Participación electoral. 
 
