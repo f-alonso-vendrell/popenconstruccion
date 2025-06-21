@@ -420,7 +420,9 @@ El defensor del afiliado no podrá formar parte de los listados de candidatos de
 
 Con el objetivo de preparar modificaciones a los Estatutos, los Reglamentos o para dar soporte a los candidatos y electos se podrán crear grupos de trabajo de carácter temporal.
 
-Los grupos de trabajo se crearan a petición del Consejo Ejecutivo, El defensor del afiliado o por un 10% de los afiliados. Cada grupo de trabajo tendrá un único y exclusivo objetivo.
+Los grupos de trabajo se crearan a petición del Consejo Ejecutivo, El defensor del afiliado, Cualquier Candidato o Persona Electa o por al menos 3 afiliados. Cada grupo de trabajo tendrá un único y exclusivo objetivo.
+
+Se podrá crear más de un grupo de trabajo para el mismo objetivo.
 
 Los grupos de trabajo estarán formados exclusivamente por afiliados que voluntariamente quieran participar en ese grupo de trabajo.
 
@@ -430,7 +432,7 @@ El plazo máximo para presentar conclusiones por parte de los grupos de trabajo 
 
 Una vez presentadas las conclusiones o cumplido el plazo máximo el grupo se disolverá.
 
-El funcionamiento de los grupos de trabajo se desarrollará en el *Reglamento de los grupos de trabajo*
+El funcionamiento de los grupos de trabajo se desarrollará en el *Reglamento de los grupos de trabajo*. El *Reglamento de los grupos de trabajo* limitará en cuantos grupos de trabajo puede un afiliado estar simultaneamente.
 
 # Título III. Régimen económico y patrimonial. 
 
