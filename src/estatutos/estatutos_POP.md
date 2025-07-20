@@ -18,6 +18,11 @@
 
 ​	*Fernando Alonso*
 
+**"La política y los partidos políticos no deberían entenderse como equipos de fútbol."**
+
+​	*Carlos Cañas*
+
+
 El poder corrompe, sobre todo a aquellos que dicen que a ellos no, por ello la sociedad ha evolucionado para limitar la corrupción mediante elementos de control. Los primeros avances se lograron mediante el establecimiento de leyes y normas en los que se limitaba por escrito el poder y se expresa la manera de prevenir actuaciones que repercutan negativamente en la sociedad, a continuación se estableció la división de poderes, inicialmente en religioso, ejecutivo, legislativo y judicial, hasta tener hoy en día poderes adicionales como los medios de comunicación, las corporación empresariales, así como otros grupos y lobbies interesados en un beneficio propio.
 
 Esa separación se ve constantemente retada por aquellos grupos que en un determinado momento cuentan con mayor poder con el objetivo de aumentar ese poder. En el caso del poder ejecutivo y legislativo se ve mediante la creciente intervención directa en otros grupos en vez de legislar para corregir la causa se legisla para satisfacer las tendencias atacando al efecto.
@@ -27,6 +32,8 @@ El control judicial existe, sin embargo, cuando este llega, el daño ya está he
 El partido de la oposición permanente nace con el objetivo de representar aquellos ciudadanos que sienten la necesidad de controlar las iniciativas políticas desde la política, respetando el hecho de que los políticos representan una determinada ideología cuyo peso en la sociedad debe ser defendido, de manera objetiva, no buscando obtener poder político.
 
 Por ello, no buscaremos gobernar sino influir en las iniciativas del gobierno para que se mantenga una clara separación de poderes públicos, respeto por la ley y la soberanía popular, como partido en la oposición.
+
+Queremos afiliados librepensadores que busquen el bien común, que puedan estar de acuerdo con diferentes propuestas con independencia de que partido las proponga, siempre que mejoren al conjunto de la ciudadanía, y sin plegarse a un interés partidista o económico-personal.
 
 Somos conscientes de que cualquier persona, incluidos nuestros candidatos, puede caer en la manera de actuar de los políticos "de carrera", dadas a pisar otras ideas o personas para llegar a su objetivo, que han tenido nada mejor a lo que dedicarse y que se ven ajenos a las consecuencias de sus decisiones.
 
@@ -74,7 +81,9 @@ En caso de no haber otro partido en esas condiciones, el Partido de la Oposició
 
 **5.- Principio de criterio individual.**
 
-5.1.- En el resto de votaciones se dejara libertad de voto entre "abstención" y "en contra" a cada persona del Partido de la Oposición Permanente que actúe como representante de los ciudadanos 
+5.1.- Cuando el partido determine mediante votación en Asamblea de Sentido de Voto, previa, expresa, con la participación exclusiva de los miembros de pleno derecho en el ambito afectado (nacional, autonomico o local), una posición (de "abstención" o "en contra") está será el sentido del voto de las personas del Partido de la Oposición Permanente que actúen como representantes de los ciudadanos.
+
+5.2.- En el resto de votaciones se dejara libertad de voto entre "abstención" y "en contra" a cada persona del Partido de la Oposición Permanente que actúe como representante de los ciudadanos 
 
 ### Artículo 4. Domicilio
 
@@ -124,7 +133,7 @@ Son  afiliados del  Partido de la Oposición Permanente  aquellas  personas  que
 
 La condición de persona afiliada al partido se adquiere tras la validación de la solicitud entregada por la persona interesada de una solicitud rellena con sus datos personales. 
 
-El solicitante que exprese su interés por ser afiliado, deberá  estar avalado por dos afiliados y haber abonado su primera cuota. Se establece un periodo,  nunca  inferior  a  un mes  a  partir  de  la  fecha  de  entrega  del  original  de  la solicitud ante Secretaría, durante el cual la persona solicitante no podrá ejercer el derecho de sufragio ni activo ni pasivo. Transcurrido dicho periodo, y si el Consejo Ejecutivo no se ha pronunciado en contra de su ingreso en el partido,  la o  el solicitante pasará a disfrutar de la condición de militante. 
+El solicitante que exprese su interés por ser afiliado, deberá  estar avalado por dos afiliados y haber abonado su primera cuota. Se establece un periodo,  nunca  inferior  a  dos meses  a  partir  de  la  fecha  de  entrega  del  original  de  la solicitud ante Secretaría, durante el cual la persona solicitante no podrá ejercer el derecho de sufragio ni activo ni pasivo. Transcurrido dicho periodo, y si el Consejo Ejecutivo no se ha pronunciado en contra de su ingreso en el partido,  la o  el solicitante pasará a disfrutar de la condición de militante o afiliado de pleno derecho
 
 Los detalles del proceso de Admisión se desarrollarán en el *Reglamento de gestión de personas afiliadas*
 
@@ -264,6 +273,7 @@ El partido tendrá los siguientes reglamentos obligatoriamente:
 * Reglamento del Defensor de los Afiliados
 * Reglamento Financiero
 * Reglamento de los Grupos de Trabajo
+* Reglamento de Asamblea de Sentido de Voto
 
 ### Articulo 23. Elaboración y actualización de los reglamentos
 
@@ -355,7 +365,7 @@ c) La gestión de los bienes del partido en todo lo referente a la administraci�
 
 d) El seguimiento de la actividad legislativa y ejecutiva de los diferentes órganos de  gobierno municipales, comarcales, provinciales, autonómicos, nacionales y europeos. 
 
-e) El seguimiento de la actividad política de aquellos representantes del partido que lleguen a ostentar algún cargo de representación pública, interpretando y valorando si su actuación se ajusta a los objetivos y fines fijados. 
+e) El seguimiento de la actividad política de aquellos representantes del partido que lleguen a ostentar algún cargo de representación pública, interpretando y valorando si su actuación se ajusta a los objetivos y fines fijados. En particular, el cumplimiento de los principios del partido, nunca votando a favor de ninguna propuesta, y reflejando el sentir mayoritario del partido cuando este haya sido expresado en votación.
 
 f) La elaboración y presentación anualmente ante la Asamblea General, para su aprobación en su caso, de una propuesta de presupuestos para cada ejercicio. 
 
@@ -434,6 +444,23 @@ Una vez presentadas las conclusiones o cumplido el plazo máximo el grupo se dis
 
 El funcionamiento de los grupos de trabajo se desarrollará en el *Reglamento de los grupos de trabajo*. El *Reglamento de los grupos de trabajo* limitará en cuantos grupos de trabajo puede un afiliado estar simultaneamente.
 
+### Artículo 33-bis. Asambleas de Sentido de Voto.
+
+Con el objetivo expreso de indicar a las personas electas del partido la posición del partido respecto a un proceso concreto de votación se podrán crear Asambleas de Sentido de Voto. 
+
+Cada Asamblea de Sentido de Voto tendrá un ambito (nacional, autonomico o local) en el cual se emmarque la propuesta que deberá ser votada por las personas electas en ese ambito
+
+Las Asambleas de Sentido de Voto se crearan a petición del Consejo Ejecutivo, cualquier Persona Electa en el ambito correspondiente o por al menos un 10% de los afiliados en el ambito correspondiente.
+
+La Asamblea de Sentido de Voto deberá celebrarse al menos 1 dia antes de la celebración de la votación correspondiente.
+
+La Asamblea de Sentido de Voto deberá tener al menos las conclusiones de 2 grupos de trabajo, con al menos una conclusión razonada apoyando "abstención" y otra conclusión razonada apoyando "en contra". Las conclusiones deberán presentarse al menos 2 dias antes de la celebración de la Asamblea de Sentido de Voto.
+
+La Asamblea de Sentido de Voto deberá tener el texto que vaya a ser votado por los representantes de los ciudadanos al menos 1 día antes de la celebración de la Asamblea de Sentido de Voto.
+
+El funcionamiento de la Asamblea de Sentido de Voto se desarrollará en el *Reglamento de Asambleas de Sentido de Voto* donde se indicará el proceso a seguir y conclusiones a comunicar a las personas electas del partido en función de la participación, porcentaje de votos apoyando la abstención, el voto en contra, o abstenciones dentro de la propia votación.
+
+
 # Título III. Régimen económico y patrimonial. 
 
 ### Artículo 34. Recursos económicos. 
@@ -469,8 +496,6 @@ El control y fiscalización de cuentas también se realizará mediante auditorí
 ### Artículo 37. Régimen documental. Obligaciones contables. 
 
 El régimen documental así como las obligaciones contables se llevarán a cabo según lo expresado en estos Estatutos y el *Reglamento Financiero*. 
-
-
 
 ## Capítulo VII. Disolución del partido. 
 
