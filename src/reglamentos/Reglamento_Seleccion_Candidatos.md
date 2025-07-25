@@ -20,13 +20,15 @@
 
 ### Articulo 1. Información de afiliado contenida en la lista
 
-El listado estará formado por el numero de afiliados exclusivamente, sin ningún tipo de información personal adicional.
+El listado estará formado por el numero de cada afiliado en una lista ordenada, exclusivamente, sin ningún tipo de información personal adicional.
 
 ### Articulo 2. Afiliados que pueden formar parte de la lista
 
 La lista estará formada por aquellos militantes del partido que lo fueran en la semana previa a la elaboración del listado.
 
 Los afiliados que se den de alta en la semana previa a la elaboración del listado no formarán parte de la elaboración de la lista y deberán esperar, no más de tres meses y una semana, a la elaboración del siguiente listado. 
+
+La generación de una nueva lista invalida las listas anteriores para generar nuevas candidaturas a partir de la fecha de generación de la última lista.
 
 ## PERIODICIDAD DE LA ELABORACION DEL LISTADO
 
@@ -46,7 +48,7 @@ El responsable de la elaboración de listado de referencia será el Responsable 
 
 ### Articulo 6. Algoritmo de mezclado
 
-Se usara un algoritmo determinístico que en función de la lista de entrada y una clave de mezclado, obtenga la lista mezclada. 
+Se usara un algoritmo determinístico que en función de la lista de entrada ordenada por numero de afiliado y una clave de mezclado, obtenga la lista mezclada. 
 
 Las potenciales mezclas, que dependen de las potenciales claves, deben ofrecer una probabilidad similar a todos los elementos de la lista de ocupar una determinada posición en la lista mezclada.
 
@@ -55,7 +57,7 @@ $$
 |P(i,j)-P(k,l)|<1/(2N)
 ; P(i,j)>=1/(2N)
 $$
-Se usara python3 con la librería random 
+Se usara python3 con la librería random que implementa el algoritmo Fisher-Yates en un entorno controlado que será publicado, este algoritmo podra ser revisado y actualizado, para mejorar la igualdad de probabilidades y la reproducibilidad
 
 ```python
 import random
@@ -68,15 +70,15 @@ random.Random(clave).shuffle(listaDeEntrada)
 
 La clave de mezclado se generara concatenando:
 
-* El año en que se realiza el listado
+* El día, mes y año en que se realiza el listado
 * El primer premio del sorteo de Lotería Nacional del sábado anterior al día en el que se realiza el listado
 * El segundo premio del sorteo de Lotería Nacional del sábado anterior al día en el que se realiza el listado. 
 
 Por ejemplo si el listado se elabora el 19 de julio de 2019 la clave a usar será:
 
-**20190213730376**
+**190720190213730376**
 
-ya que el año es **2019**, el primer premio del sabado 13 de julio fue **02137** y el segundo premio del sabado 13 de julio fue **30376**
+ya que el día es **19**, el mes es **07** y el año es **2019**, el primer premio del sabado 13 de julio fue **02137** y el segundo premio del sabado 13 de julio fue **30376**
 
 ## PUBLICIDAD DEL LISTADO
 
