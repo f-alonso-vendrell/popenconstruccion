@@ -77,13 +77,13 @@ sequenceDiagram
     participant Voting
     participant Validation
 
-    User->>Administrator: B(E(b)) + S<sub>U</sub>(B(E(b)))
+    User->>Administrator: B(E(b)) + S_U(B(E(b)))
     Note right of Administrator: Validate eligibility<br/>Sign blinded ballot<br/>Publish census
-    Administrator-->>User: S<sub>A</sub>(B(E(b)))
-    Note left of User: Unblind → S<sub>A</sub>(E(b))
+    Administrator-->>User: S_A(B(E(b)))
+    Note left of User: Unblind → S_A(E(b))
 
     Note over User,Voting: Administration ends → Voting starts
-    User->>Voting: E(b) + S<sub>A</sub>(E(b))
+    User->>Voting: E(b) + S_A(E(b))
     Note right of Voting: Validate signature<br/>Publish list of votes
     Voting-->>User: OK / NOK
 
