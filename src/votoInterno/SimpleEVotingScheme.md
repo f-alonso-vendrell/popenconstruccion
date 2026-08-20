@@ -12,45 +12,46 @@ I propose a simple eVoting Scheme based on voting scheme of Fujioka, Okamoto and
 
 ## Definitions
 
-Ballot: A digital message that represents a decision made by the voter, represented by **b**
-
-Nonce: A non deterministic random digital message, represented by **n** https://en.wikipedia.org/wiki/Cryptographic_nonce
-
-Signature/Digital Signature: A digital message appended to original message that can be only be created by signer but can be checked as signed by anyone. https://en.wikipedia.org/wiki/Digital_signature. Will be represented by **S()**
-
-Encryption/Decryption-Blind/Unblind. Will be represented by **B()** and **U()** so U(B(m))=m. https://en.wikipedia.org/wiki/Encryption. Will be also represented as **E()** and **D()**
-
-Blind Signature: A signing algorithm that applyed to encrypted/blinded message, then a signature for the unencrypted/unblinded message can be retrieved by usage. https://en.wikipedia.org/wiki/Blind_signature, same as signature it will be represented by **S()**
-
-Hash: represented by **H()** https://en.wikipedia.org/wiki/Cryptographic_hash_function
+- **Ballot**: A digital message that represents a decision made by the voter, represented by **b**.
+- **Nonce**: A non-deterministic random digital message, represented by **n**.  
+  https://en.wikipedia.org/wiki/Cryptographic_nonce
+- **Signature / Digital Signature**: A digital message appended to an original message that can only be created by the signer but can be verified by anyone.  
+  https://en.wikipedia.org/wiki/Digital_signature. Represented by **S(·)**.
+- **Encryption / Decryption – Blind / Unblind**: Represented by **B(·)** and **U(·)** so that U(B(m)) = m.  
+  Also written **E(·)** and **D(·)**.  
+  https://en.wikipedia.org/wiki/Encryption
+- **Blind Signature**: A signing algorithm applied to a blinded message; after unblinding, a valid signature on the original message is obtained.  
+  https://en.wikipedia.org/wiki/Blind_signature. Also represented by **S(·)**.
+- **Hash**: Represented by **H(·)**.  
+  https://en.wikipedia.org/wiki/Cryptographic_hash_function
 
 ## FOO scheme
 
-The FOO scheme contains 3 sessions, Administration, Voting and Validation (assumed non overlapping to difficult voter-vote correlation)
+The FOO scheme contains 3 sessions, **Administration**, **Voting** and **Validation** (assumed non overlapping to difficult voter-vote correlation)
 
 ### Administration setup
 
-The user prepares the ballot **b** 
+The voter prepares the ballot **b** 
 
-   **message(m)=b**
+**message=m=b**
 
-Then the user blinds that message and sends them to the administrator in a predefined format which includes signature of user for validation:
+Then the voter blinds that message and sends them to the administrator in a predefined format which includes signature of voter for validation:
 
-**B(E(b))+S~U~(B(E(b)))**
+**B(E(b))+S<sub>U</sub>(B(E(b)))**
 
-The administrator signs the message and returns it back to the user
+The administrator signs the message and returns it back to the voter
 
-**S~A~(B(E(b)))**
+**S<sub>A</sub>(B(E(b)))**
 
-The user applies unblinding thus obtaining the original message and its has signed by administrator
+The voter applies unblinding thus obtaining the original message and its has signed by administrator
 
-**S~A~(E(b))**
+**S<sub>A</sub>(E(b))**
 
 ### Voting
 
 After administration phase is completed the user sends the encrypted ballot together with the administrator signature via anonymous channel the the voting storage
 
-**E(b)+S~A~(E(b))**
+**E(b)+S<sub>A</sub>(E(b))**
 
 The voting storage or network intermediates can check signature and message format, if signature  or format fails the entry is not accepted, if entry succeeds the validation storage can return signed acknowledge and adds the entry to the list, the list is shown to the public and can add additional info provided by the voting storage.
 
@@ -69,21 +70,28 @@ After voting phase is completed the user sends the encrypted ballot and the key 
 - Anyone can check that the number of validations is less or equal than the number of voters
 - Anyone can count votes and get to final result
 
-```sequence
-User->Administrator: B(E(b))
-Note right of Administrator: Validate user can vote, \n sign it
-Note right of Administrator: Made list of census public
-Administrator-->User: S(B(E(b)))
-Note left of User: User can obtain then:\n S(E(b)) 
-Note right of User: Once Administrator phase ends \Voting can get started
-User->Voting: E(b)+S(E(b))
-Note right of Voting: Validate signature. \n List of votes public
-Voting-->User: OK/NOK
-Note right of User: Once Voting phase ends \Validation can get started
-User->Validation: E(b)+DecriptionKey
-Note left of Validation: Validate decription. \n Validate with voting list.\n List of validations public
-Validation-->User: OK/NOK
-Note right of User: End of Voting.
+```mermaid
+sequenceDiagram
+    participant User
+    participant Administrator
+    participant Voting
+    participant Validation
+
+    User->>Administrator: B(E(b)) + S<sub>U</sub>(B(E(b)))
+    Note right of Administrator: Validate eligibility<br/>Sign blinded ballot<br/>Publish census
+    Administrator-->>User: S<sub>A</sub>(B(E(b)))
+    Note left of User: Unblind → S<sub>A</sub>(E(b))
+
+    Note over User,Voting: Administration ends → Voting starts
+    User->>Voting: E(b) + S<sub>A</sub>(E(b))
+    Note right of Voting: Validate signature<br/>Publish list of votes
+    Voting-->>User: OK / NOK
+
+    Note over User,Validation: Voting ends → Validation starts
+    User->>Validation: E(b) + DecryptionKey
+    Note left of Validation: Open & verify<br/>Match voting list<br/>Publish openings
+    Validation-->>User: OK / NOK
+    Note right of User: Protocol ends – public tally possible
 ```
 
 ## Simple eVoting Scheme
@@ -104,19 +112,19 @@ Then the user blinds both messages and sends them to the administrator in a pred
 
 **B(m)=B(b+n) => B(m)+S(B(m))**
 
-**B(h)=B(H(b+n)) => B(h)+S~U~(B(h))**
+**B(h)=B(H(b+n)) => B(h)+S<sub>U</sub>(B(h))**
 
 The administrator signs both messages and returns them back to the user, adds received data plus user identity to table
 
-**S~A~(B(m))**
+**S<sub>A</sub>(B(m))**
 
-**S~A~(B(h))**
+**S<sub>A</sub>(B(h))**
 
 The user applies unblinding thus obtaining the original message and its has signed by administrator
 
-**S~A~(m)**
+**S<sub>A</sub>(m)**
 
-**S~A~(h)**
+**S<sub>A</sub>(h)**
 
 ### Validation 
 
